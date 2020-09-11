@@ -1,0 +1,23 @@
+{
+  "name": "omniventory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index"
+  },
+  "keywords": [],
+  "author": "Nitin Pamnani",
+  "license": "ISC",
+  "dependencies": {
+    "@mysql/xdevapi": "8.0.21",
+    "express": "^4.17.1",
+    "express-es6-template-engine": "^2.2.3",
+    "mysql": "^2.18.1",
+    "pg-promise": "^10.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
