@@ -8,11 +8,11 @@ app.use(bodyParser.urlencoded({extended: true}))
 
 app.use(bodyParser.json())
 
-app.use(express.static(path.join(__dirname, 'dashboard/build')));
+app.use(express.static(path.join(__dirname,'/dashboard/build')));
 
 app.get('/', (req, res) => {
    //res.send("Hello World");
-    res.sendFile(path.join(__dirname+'/dashboard/build/index.html'));
+    res.sendFile(path.join(__dirname,'/dashboard/build/index.html'));
 });
 
 const productRoutes = require('./routes/routes');
